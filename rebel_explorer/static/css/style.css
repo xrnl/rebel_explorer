@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'FUCXEDCAPS';
+  src:
+  url('/static/fonts/FUCXEDCAPSLatin-Regular.woff2') format('woff2'),
+  url('/static/fonts/FUCXEDCAPSLatin-Regular.woff') format('woff');
+}
+
+.title {
+  font-family: 'FUCXEDCAPS';
+}
+
+body{
+    font-family: crimson-text;
+    color: #000;
+}

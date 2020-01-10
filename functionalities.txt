@@ -1,0 +1,17 @@
+# Purpose of this system
+
+Make it easy for XR NL local groups to access and visualize information about their members.
+
+# Functionalities
+
+1. See information about their members: name, email address, phone number, sign up date & time.
+2. Easily access the emails addresses their members: copy emails addresses onto clipboard with one click. This will enable the user to easily paste all email recepients when sending out a new email. 
+3. Filtering: easily find a subset of members (e.g. people who signed up at last nights talk, people interested in tech...)
+4. Visualization: bar graph of total group size, pie chart of the proportion of people interested in each working group, growth of each local group...
+
+# Privacy
+
+Only a small subset of people in each local group should be able to access the data of their members.
+
+In the short term groups will log in with one password for each local group. Passwords should be reset every 2 months so that only those that need access to the data have access to it. 
+To make it more secure, in the long term users will login in with their email and password. Additionally, we will keep records of who has logged on when. This information will make it easier to identify those that are misusing the system. In adddition, it will enable us to remove particular users from the system without having to reset the password for the entire working group.

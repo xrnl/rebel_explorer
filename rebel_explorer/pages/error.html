@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{code}} error{% endblock %}
+{% block content %}
+<div class="col-12 center">
+    {% if code == 500 %}
+    <p> sorry, we have are having some issues at the moment...</p>
+    {% elif code == 410 %}
+    <p> the page you are trying to access does not exist anymore </p>
+    <a href="{{url_for('index.index')}}">take me to the home page</a>
+    {% elif code == 404 %}
+    <p> the page you are trying to access does not exist, have you typed a correct URL?</p>
+    <a href="{{url_for('index.index')}}">take me to the home page</a>
+    {% elif code == 403 %}
+    <p> it seems like you do not have access to this URL</p>
+    <a href="{{url_for('index.index')}}">take me to the home page</a>
+    {% endif %}
+</div>
+
+{% endblock %}

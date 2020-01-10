@@ -1,0 +1,11 @@
+{% macro render_form(form_entry) %}
+<div class="form-group">
+    <label>{{ form_entry.label }}</label>
+    {{ form_entry(class_="form-control") | safe }}
+    {% if form_entry.errors %}
+    {% for error in form_entry.errors %}
+    <p class="form-error">{{ error }}</p>
+    {% endfor %}
+    {% endif %}
+</div>
+{% endmacro %}
